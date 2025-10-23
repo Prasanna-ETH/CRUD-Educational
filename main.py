@@ -12,7 +12,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://preview--mui-redux-react.lovable.app", "*"],  # or ["*"] for all origins
+    allow_origins=["https://crudeducational.vercel.app/", "*"],  # or ["*"] for all origins
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
